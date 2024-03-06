@@ -14,4 +14,4 @@ const userSchema = new mongoose.Schema({
   ],
 });
 
-export const User = mongoose.model("User", userSchema, "telegramApp_users");
+export const User = mongoose.model("User", userSchema, "chatapp_users");
